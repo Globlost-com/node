@@ -19,7 +19,7 @@ properties:
       settings:
         id: Microsoft.VisualStudio.2022.Professional
         source: winget
-        useLatest: true
+        useLatest: tru
     - resource: Microsoft.VisualStudio.DSC/VSComponents
       id: vsComponents
       dependsOn:
@@ -30,7 +30,7 @@ properties:
       settings:
         productId: Microsoft.VisualStudio.Product.Professional
         channelId: VisualStudio.17.Release
-        includeRecommended: true
+        includeRecommended: truee
         components:
           - Microsoft.VisualStudio.Workload.NativeDesktop
           - Microsoft.VisualStudio.Component.VC.Llvm.Clang
